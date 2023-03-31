@@ -1,0 +1,18 @@
+.row {
+  --bs-gutter-x: 0rem;
+}
+.fontBold {
+  font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
+  .border-end-5px {
+    border-right: 5px solid
+      rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  }
+  .border-bottom-0px {
+    border-bottom: 0 !important;
+  }
+  .border-start-5px {
+    border-left: 5px solid rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  }
+}

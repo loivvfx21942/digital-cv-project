@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  body {
+    padding: 0px 20px;
+  }
+  #job-info .Container {
+    margin: 20px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .hide {
+    display: none;
+  }
+}
